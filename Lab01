@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Language" content="pl" />
+  <meta name="Author" content="Kamil Jarzyński" />
+  <title>Największe budynki świata</title>
+  <style>
+    body {
+      background-color: whitesmoke;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      justify-content: center;
+    }
+
+    h1 {
+      color: black;
+      font-size: 36px;
+    }
+
+
+    p {
+      font-size: 18px;
+    }
+
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    li {
+      margin: 0 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: steelblue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Najwyższe budynki świata</h1>
+
+<p>Przed nadejściem XIX wieku, budynki wznoszące
+  się na więcej niż sześć pięter były rzadkością, jednak wraz z pojawieniem
+  się wynalazków, takich jak stal, szkło, żelbet, wydajne pompy wodne oraz windy,
+  ich wysokość zaczęła rosnąć i zwiększa się nieprzerwanie już od ponad stu lat.</p>
+
+<p>
+  Poniżej przedstwaiamy 5 najwyższych budynków jakie wybudował człowiek
+</p>
+
+<table>
+  <tr>
+    <th>Ranking</th>
+    <th>Nazwa budynku</th>
+    <th>Wysokość (metry)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Burj Khalifa</td>
+    <td>828</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Shanghai Tower</td>
+    <td>632</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Makkah Royal Clock Tower</td>
+    <td>601</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Ping An Finance Center</td>
+    <td>599</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Lotte World Tower</td>
+    <td>555</td>
+  </tr>
+</table>
+
+<ul>
+  <li><a href="PodstronaNr1.html">Burj Khalifa</a>
+  <br>
+    <img src="Bur.jpg" alt="Burj Khalifa">
+  </br></li>
+  <li><a href="PodstronaNr2.html">Shanghai Tower</a></li>
+  <li><a href="PodstronaNr3.html">Makkah Royal Clock Tower</a></li>
+  <li><a href="PodstronaNr4.html">Ping An Finance Center</a></li>
+  <li><a href="PodstronaNr5.html">Lotte World Tower</a></li>
+</ul>
+
+</body>
+</html>
