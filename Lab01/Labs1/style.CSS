@@ -1,0 +1,102 @@
+body {
+  background-image: url('pictures/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Kontakt {
+  margin-left: 630px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px 20px 60px;
+    list-style: none;
+}
+h1 {
+  color: black;
+  font-size: 48px;
+  margin: 0 auto;
+}
+.header_picture {
+    width: 650px;
+    height: 150px;;
+}
+
+.address-icon {
+  width: 16px;
+    height: 16px;
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+
+.centerIT {
+  text-align: center;
+  font-size: 25px;
+}
+.top5 {
+  font-size: 20px;
+}
+
+header div {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  font-size: 21px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+  font-weight: bold;
+}
+
+
+table {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto; 
+  text-align: center;
+  
+}
+
+th, td {
+  background-color: white;
+  border: 2px solid rgb(96, 97, 97); /* Dodanie obramowania */
+  padding: 20px solid white; /* Dodanie odstępu wewnętrznego */
+  text-align: left; /* Wyrównanie tekstu w komórkach do lewej */
+}
+
+.towers {
+  width: 125px;
+  height: 300px;
+}
+
+.menu{
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+}
