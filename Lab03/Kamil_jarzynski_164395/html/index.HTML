@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="Author" content="Kamil Jarzyński" />
+
+    <title>Najwyższe budynki świata</title>
+    <link rel="stylesheet" href="../CSS/style.CSS"/>
+    <script src="../js/kolorujtlo.js" type="text/javascript"></script>
+    <script src="../js/timedate.js" type="text/javascript"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body onload= "startClock()">
+    <div id="zegarek"></div>
+    <div id="data"></div>
+    <div id="animacjaTestowa1" class="test-block">Kliknij, a się powieksze</div>
+    <script>
+        $("#animacjaTestowa1").on("click",function() {
+            $(this).animate({
+                width: "500px",
+                opacity: 0.4,
+                fontsize: "3em",
+                borderwith: "10px"
+            }, 1500)
+        });
+    </script>
+    <div id="animacjaTestowa2" class="test-block">Najedz KURSOREM a sie powieksze</div>
+    <script>
+        $("#animacjaTestowa2").on({
+            "mouseover" : function() {
+                $(this).animate({
+                    width: 300
+                }, 800);
+            },
+            "mouseout" : function() {
+                $(this).animate({
+                    width: 200
+                }, 800);
+            }
+        });
+    </script>
+    <div id="animacjaTestowa3" class="test-block">Kliknij,abym urusł</div>
+    <script>
+        $("#animacjaTestowa3").on("click", function() {
+            if(!$(this).is(":animated")) {
+                $(this).animate({
+                    width: "+=" + 50,
+                    height: "+=" +10,
+                    opacity: "+=" + 0.1,
+                    duration : 3000 // inny sposob deklaracji czasu trwania animacji
+                });
+            }
+        });
+    </script>
+    <header>
+        <img class="header_picture circle" src="../pictures/Naglowek.png"/>
+        <div>
+            <h1>Najwyższe budynki świata</h1>
+            <span>Najwyższa Piątka</span>
+        </div>
+        <address>
+            <h2><u>Kontakt</u></h2>
+            <form action="mailto:kamiljarzynski@o2.pl">
+                <label for="fname">Imie:</label><br>
+                <input type="text" id="fname" name="fname" value="Janusz"><br>
+                <label for="lname">Nazwisko:</label><br>
+                <input type="text" id="lname" name="lname" value="Walczak"><br><br>
+                <input type="submit" value="Wyślij">
+              </form>
+         </address>
+    </header>
+    <main>
+        <section>
+            <p class="centerIT">
+                Przed nadejściem XIX wieku, budynki wznoszące
+                się na więcej niż sześć pięter były rzadkością, jednak wraz z pojawieniem
+                się wynalazków, takich jak stal, szkło, żelbet, wydajne pompy wodne oraz windy,
+                ich wysokość zaczęła rosnąć i zwiększa się nieprzerwanie już od ponad stu lat.
+            </p>
+        </section>
+        <section>
+            <p class="top5">
+                <b><i>Poniżej przedstwiamy 5 cudów inżynieryjnych o których każdy powinien wiedzieć</i></b>
+            </p>
+        </section>
+        <section>
+            <table>
+            <tr>
+                <th>Ranking</th>
+                <th>Nazwa budynku</th>
+                <th>Wysokość (metry)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Burj Khalifa</td>
+                <td>828</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shanghai Tower</td>
+                <td>632</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Makkah Royal Clock Tower</td>
+                <td>601</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ping An Finance Center</td>
+                <td>599</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lotte World Tower</td>
+                <td>555</td>
+            </tr>
+            </table>
+        </section>
+        <section class="menu">
+            <h2>
+                <b><i>Menu</i></b>
+            </h2>
+        </section>
+        <section>
+            <ul>
+            <li><a href="ps1/index1.HTML">Burj Khalifa</a>
+            <br>
+                <img class="towers" src="../pictures/burj.png" alt="Burj Khalifa">
+            </br></li>
+            <li><a href="ps2/index2.HTML">Shanghai Tower</a>
+            <br>
+                <img class="towers" src="../pictures/shanghai.png" alt="Shanghai Tower">
+            </br></li>
+            <li><a href="ps3/index3.HTML">Makkah Royal Clock Tower</a>
+            <br>
+                <img class="towers" src="../pictures/mekkah.png" alt="Makkah Royal Tower">
+            </br></li>
+            <li><a href="ps4/index4.HTML">Ping An Finance Center</a>
+            <br>
+                <img class="towers" src="../pictures/ping.png" alt="Ping An Finance Center">
+            </br></li>
+            <li><a href="ps5/index5.HTML">Lotte World Tower</a>
+            <br>
+                <img class="towers" src="../pictures/lotte.ong" alt="Lotte World Tower">
+            </br></li>
+            </ul>
+        </section>
+        <FORM METHOD="POST" NAME="background">
+            <INPUT TYPE="button" VALUE="żółty" ONCLICK="changeBackground('#FFF000')">
+            <INPUT TYPE="button" VALUE="czarny" ONCLICK="changeBackground('#000000')">
+            <INPUT TYPE="button" VALUE="biały" ONCLICK="changeBackground('#FFFFFF')">
+            <INPUT TYPE="button" VALUE="zielony" ONCLICK="changeBackground('#00FF00')">
+            <INPUT TYPE="button" VALUE="niebieski" ONCLICK="changeBackground('#0000FF')">
+            <INPUT TYPE="button" VALUE="pomaranczowy" ONCLICK="changeBackground('#FF8000')">
+            <INPUT TYPE="button" VALUE="szary" ONCLICK="changeBackground('#c0c0c0')">
+            <INPUT TYPE="button" VALUE="czerwony" ONCLICK="changeBackground('#FF0000')">
+        </FORM>
+    </main>
+</body>
+</html>
+
+<?
+ $nr_indeksu = '164395';
+ $nrGrupy = '2';
+ echo 'Autor: Kamil Jarzyński '.$nr_indeksu.' grupa '.$nrGrupy.' <br /><br />';
+?>
