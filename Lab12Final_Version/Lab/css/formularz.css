@@ -1,0 +1,54 @@
+.kontakt textarea{
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgb(112, 122, 125); /* Grubość, styl i kolor ramki */
+    padding: 15px; /* Odstęp wewnątrz ramki */
+    width: 90%; /* Szerokość ramki */
+    height: 60px;
+    margin: 10px; /* Odstęp zewnętrzny dla estetyki */
+    border-radius: 10px;
+
+}
+.input {
+    border: 2px solid rgb(112, 122, 125); /* Grubość, styl i kolor ramki */
+    padding: 15px; /* Odstęp wewnątrz ramki */
+    width: 40%; /* Szerokość ramki */
+    height: 40%;
+    margin: 20px; /* Odstęp zewnętrzny dla estetyki */
+    border-radius: 10px;
+
+}
+.kontakt {
+    background-color: lightsteelblue;
+    text-align: center;
+    border: 3px solid rgb(112, 122, 125); /* Grubość, styl i kolor ramki */
+    border-color: black;
+    padding: 15px; /* Odstęp wewnątrz ramki */
+    width: 80%; /* Szerokość ramki */
+    height: 40%;
+    margin: 10px; /* Odstęp zewnętrzny dla estetyki */
+    width: 40%; /* Szerokość ramki */
+    height: 40%;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.h1 {
+    text-align: center;
+}
+.country {
+    border: 2px solid rgb(112, 122, 125); /* Grubość, styl i kolor ramki */
+    padding: 15px; /* Odstęp wewnątrz ramki */
+    width: 45%; /* Szerokość ramki */
+    height: 40%;
+    margin: 10px; /* Odstęp zewnętrzny dla estetyki */
+    border-radius: 10px;
+}
+.send {
+    border: 2px solid rgb(112, 122, 125); /* Grubość, styl i kolor ramki */
+    padding: 15px; /* Odstęp wewnątrz ramki */
+    width: 18%; /* Szerokość ramki */
+    margin: 10px; /* Odstęp zewnętrzny dla estetyki */
+    border-radius: 10px;
+}
