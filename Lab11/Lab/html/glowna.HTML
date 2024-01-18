@@ -1,0 +1,83 @@
+<!-- animacje -->
+<div class = "clock" id="zegarek"></div>
+<div class ="data" id="data"></div>
+
+<!-- głowa -->
+<header>
+    <img class="header_picture circle" src="./pictures/Naglowek.png"/>
+    <div>
+        <h1>Najwyższe budynki świata</h1>
+        <span>Najwyższa Piątka</span>
+    </div>
+</header>
+<!-- body -->
+
+
+    <section>
+        <p class="centerIT">
+            Przed nadejściem XIX wieku, budynki wznoszące
+            się na więcej niż sześć pięter były rzadkością, jednak wraz z pojawieniem
+            się wynalazków, takich jak stal, szkło, żelbet, wydajne pompy wodne oraz windy,
+            ich wysokość zaczęła rosnąć i zwiększa się nieprzerwanie już od ponad stu lat.
+        </p>
+    </section>
+    <section>
+        <p class="top5">
+            <b><i>Poniżej przedstwiamy 5 cudów inżynieryjnych o których każdy powinien wiedzieć</i></b>
+        </p>
+    </section>
+    <!-- skrypt który zwięsza rozmiar napisu po naciśnięciu na niego -->
+    <script>
+        $(document).ready(function() {
+            $(".clickable").on("click", function() {
+                if (!$(this).is(":animated")) {
+                    $(this).css("font-size", "+=5px"); // Natychmiastowe zastosowanie zmiany rozmiaru
+                    $(this).animate({
+                        fontSize: "-=5"
+                    }, 10000);
+                }
+            });
+        });
+    </script>
+    <!-- Tabela z Najwyższymi budynkami świata i przekierowywanie do ich podstron-->
+    <section>
+        <table>
+        <tr>
+            <th>Ranking</th>
+            <th>Nazwa budynku</th>
+            <th>Wysokość (metry)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><div class="clickable">Burj Khalifa</div></td>
+            <td>828</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><div class="clickable">Shanghai Tower</div></td>
+            <td>632</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><div class="clickable">Makkah Royal Clock Tower</div></td>
+            <td>601</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><div class="clickable">Ping An Finance Center</div></td>
+            <td>599</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><div class="clickable">Lotte World Tower</div></td>
+            <td>555</td>
+        </tr>
+        </table>
+    </section>
+    <section class="menu">
+        <h2>
+            <b><i>Menu</i></b>
+        </h2>
+    </section>  
+
+
