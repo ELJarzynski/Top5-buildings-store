@@ -1,0 +1,209 @@
+.Kontakt {
+  border: 2px solid rgb(112, 122, 125); /* Grubość, styl i kolor ramki */
+  padding: 15px; /* Odstęp wewnątrz ramki */
+  width: 300px; /* Szerokość ramki */
+  margin: 20px; /* Odstęp zewnętrzny dla estetyki */
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px 20px 60px;
+    list-style: none;
+}
+
+header div {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.header_picture {
+  width: 650px;
+  height: 150px;;
+}
+
+h1 {
+  color: black;
+  font-size: 48px;
+  margin: 0 auto;
+}
+.circle {
+  border-radius: 50%;
+}
+
+/*body*/
+.centerIT {
+  text-align: center;
+  font-size: 25px;
+}
+.top5 {
+  font-size: 20px;
+}
+p {
+  font-size: 21px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  bottom: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+  font-weight: bold;
+}
+
+/*tabela*/
+table {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto; 
+  text-align: center;
+  
+}
+
+th, td {
+  background-color: white;
+  border: 2px solid rgb(96, 97, 97); /* Dodanie obramowania */
+  padding: 20px solid white; /* Dodanie odstępu wewnętrznego */
+  text-align: left; /* Wyrównanie tekstu w komórkach do lewej */
+}
+
+/*Menu */
+.towers {
+  width: 125px;
+  height: 300px;
+}
+.towersMekkah {
+  width: 190px;
+  height: 300px;
+}
+.menu{
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+}
+
+/*zmiana wielkosci napisów*/
+ul li a {
+  font-size: 16px; /* Początkowy rozmiar tekstu */
+  transition: font-size 0.5s; /* Animacja zmiany rozmiaru tekstu trwa 0.5 sekundy */
+} 
+ul li a:hover {
+  font-size: 20px; /* Rozmiar tekstu po najechaniu kursorem */
+}
+.MenuNaBoki {
+  display:flex;
+}
+
+/*JavaScript*/
+.background {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px; 
+  border: 1px dashed #333333;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.clock{
+  position: fixed;
+  text-align: center;
+  width: 100px;
+  bottom: 10px;
+  right: 130px;
+  border: 1px dashed #333333;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+.data{
+  position: fixed;
+  text-align: center;
+  bottom: 10px; 
+  right: 10px;
+  border: 1px dashed #333;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100px;
+}
+
+/* CSS dla podstron*/
+.first {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.first div {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 60px 20px 60px;
+  font-size: 25px;
+}
+/*Zdjecia dla podstron*/
+.Burj1 {
+  height: 400px;
+  width: 500px;
+  margin-right: 5%;
+}
+.Burj2 {
+height: 600px;
+width: 280px;
+margin-right: 5%;
+margin-top: 100px;
+}
+
+.Shangjai1 {
+  height: 500px;
+  width: 500px;
+  margin-right: 5%;
+}
+
+.Mekkah1 {
+  height: 400px;
+  width: 500px;
+  margin-right: 5%;
+}
+
+.ping1 {
+  height: 400px;
+  width: 500px;
+  margin-right: 5%;
+}
+.shengen1 {
+height: 400px;
+width: 225px;
+margin-right: 5%;
+margin-top: 40px;
+}
+
+.lotte {
+  height: 400px;
+  width: 500px;
+  margin-right: 5%;
+}
+.lotte2 {
+margin-top: 70px;
+height: 400px;
+width: 500px;
+margin-right: 5%;
+}
+
+/*Przyciski*/
+
