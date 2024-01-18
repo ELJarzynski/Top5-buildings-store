@@ -1,0 +1,24 @@
+
+.Burj1 {
+    height: 400px;
+    width: 500px;
+    margin-right: 5%;
+}
+.Burj2 {
+  height: 600px;
+  width: 280px;
+  margin-right: 5%;
+  margin-top: 100px;
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.first div {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 60px 20px 60px;
+    font-size: 25px;
+  }
